@@ -8,7 +8,7 @@ const App = () => {
   const [weatherData, setWeatherData] = useState(null);
   const [error, setError] = useState(null);
 
-  const apiKey = '19fb6e8d9a88d547a548625a04fe4fcc';  // 替换成你的 API 密钥
+  const apiKey = 'YOUR KEY API';  // 替换成你的 API 密钥
 
   const handleSearch = async (city) => {
     try {
